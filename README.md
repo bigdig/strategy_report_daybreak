@@ -138,7 +138,7 @@ python3 ../backtest.py -m B -d 100 -sf CTA_setting_RSIDayBreakPlus.json  -s rb19
 
 
 
-## NI 回测 不加仓
+### NI 回测 不加仓
 
 <center>
 
@@ -201,7 +201,7 @@ python3 ../backtest.py -m B -d 100 -sf CTA_setting_RSIDayBreakPlus.json  -s rb19
 
 
 
-## NI 回测 加仓
+### NI 回测 加仓
 
 <center>
 
@@ -230,8 +230,7 @@ python3 ../backtest.py -m B -d 100 -sf CTA_setting_RSIDayBreakPlus.json  -s rb19
 18    多仓平均利润               370.68
 19    空仓平均利润               206.06
 计算按日统计结果
-../../vnpy/trader/app/ctaStrategy/ctaBacktesting.py:1548: RuntimeWarning: invalid value encountered in log
-  np.log(df['balance']) - np.log(df['balance'].shift(1))).fillna(0)
+
 --------------------------------------------------
                    0                1
 0       首个交易日：       2016-11-14
