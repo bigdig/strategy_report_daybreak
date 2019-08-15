@@ -22,7 +22,7 @@ python3 ../backtest.py -m B -d 1000 -sf CTA_setting_alpha_virtual_rb.json -s rb0
 <center>
 
 
-![](0_rb000_RealityPosition.png)
+![](./0_rb000_RealityPosition.png)
 
 ```
                  0                    1
@@ -82,7 +82,7 @@ python3 ../backtest.py -m B -d 1000 -sf CTA_setting_alpha_virtual_rb.json -s rb0
 <center>
 
 
-![](ATRRSI_rb000_12_AdverseSelectionSpread_rb000_True_.png)
+![](./ATRRSI_rb000_12_AdverseSelectionSpread_rb000_True_.png)
 
 ```
                  0                    1
