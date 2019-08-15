@@ -1,9 +1,10 @@
 # 要据多个策略信号，合成新的开仓信号。当合成信号大于3时，开仓
+一个组合信息开仓的方法，回测及实盘效果一直都不错，能大幅减少回撤，同时还能增加盈利。原理基本上是大于门限仓位开仓、持仓赢利再加仓
 
 '''
 
         # 门限仓位
-        if abs(posChange) <= self.posThreshold + co:
+        if abs(posChange) <= self.posThreshold:
             return
 
         # 持仓赢利再加仓
